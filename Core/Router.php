@@ -76,10 +76,10 @@ class Router {
                 // Get named capture group values
                 //$params = [];
 
-                highlight_string("\n<?php\n\$matches =\n" . var_export($matches, true) . ";\n?>");
+                /*highlight_string("\n<?php\n\$matches =\n" . var_export($matches, true) . ";\n?>");*/
 
                 foreach ($matches as $key => $match) {
-                    if(is_string($key)){
+                    if (is_string($key)){
                         $params[$key] = $match;
                     }
                 }

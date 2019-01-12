@@ -32,7 +32,7 @@ $url = $_SERVER['QUERY_STRING'];
 
 if ($router->match($url)){
     // echo '<pre>' . var_export($router->getParams(), true) . '</pre>';
-    highlight_string("\n<?php\n\$url =\n" . var_export($url, true) . ";\n?>");
+    /*highlight_string("\n<?php\n\$url =\n" . var_export($url, true) . ";\n?>");*/
     highlight_string("\n<?php\n\$router->getParams() =\n" . var_export($router->getParams(), true) . ";\n?>");
 } else {
     echo "No route found for URL '$url'";
