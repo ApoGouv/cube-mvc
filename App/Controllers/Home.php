@@ -15,7 +15,7 @@ class Home extends \Core\Controller{
      * @return void
      */
     protected function before(){
-        echo "(before) ";
+        // echo "(before) ";
         // return false;
     }
 
@@ -25,7 +25,7 @@ class Home extends \Core\Controller{
      * @return void
      */
     protected function after(){
-        echo " (after)";
+        // echo " (after)";
     }
 
     /**
@@ -35,7 +35,16 @@ class Home extends \Core\Controller{
      */
     public function indexAction(){
         // echo "Hello from the index action in the Home controller!";
-        View::render('Home/index.php');
+        /*
+        View::render('Home/index.php', [
+            'name'    => 'Tolios',
+            'colours' => ['red', 'green', 'blue']
+        ]);
+        */
+        View::renderTemplate('Home/index.html', [
+            'name'    => 'Tolios',
+            'colours' => ['red', 'green', 'blue']
+        ]);
     }
 
 }

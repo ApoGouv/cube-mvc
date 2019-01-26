@@ -1,4 +1,4 @@
-## Write PHP Like a Pro: Build a PHP MVC Framework From Scratch
+## Build a PHP MVC Framework From Scratch
 
 In this repo you can find the code as I follow the "Write PHP Like a Pro: Build a PHP MVC Framework From Scratch" Udemy course by [Dave Hollingworth][Dave Hollingworth].
 

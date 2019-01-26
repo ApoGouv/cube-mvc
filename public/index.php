@@ -11,6 +11,12 @@
 //require '../Core/Router.php';
 
 /**
+ * TODO:
+ * Load Twig here*
+ * - we will load in next chapter, using composer autoload
+ */
+
+/**
  * Autoloader
  */
 spl_autoload_register(function ($class) {
