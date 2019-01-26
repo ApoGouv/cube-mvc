@@ -33,7 +33,7 @@ class View {
      *
      * @return void
      */
-    public static function renderTemplates($template, $args = []){
+    public static function renderTemplate($template, $args = []){
         static $twig = null;
 
         if ($twig === null) {

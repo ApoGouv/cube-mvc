@@ -59,5 +59,8 @@ $RECYCLE.BIN/
 tmp*
 /tmp/*
 
+/vendor
+vendor/*
+
 # npm scripts
 node_modules/

@@ -5,12 +5,12 @@
 {% block body %}
     <h1>Welcome</h1>
     <p>Hello from the home view!</p>
-    <p>Hello from a Twig template, {{ $name }} ?></p>
+    <p>Hello from a Twig template, {{ name }} </p>
 
     <ul>
-        {{ for colour in colours }}
+        {% for colour in colours %}
             <li>{{ colour }}</li>
-        {{ endfor }}
+        {% endfor %}
     </ul>
 
 {% endblock %}
