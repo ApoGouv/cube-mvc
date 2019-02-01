@@ -1,0 +1,22 @@
+[01-Feb-2019 07:39:49 Europe/Athens] Uncaught exception: 'Exception' with message: 'Method indexsadasdAction not found in controller App\Controllers\Posts'
+	Stack trace:#0 C:\Ampps\www\cube_mvc_fwk\Core\Router.php(126): Core\Controller->__call('indexsadasd', Array)
+#1 C:\Ampps\www\cube_mvc_fwk\public\index.php(32): Core\Router->dispatch('posts/indexsada...')
+#2 {main}
+	Thrown in 'C:\Ampps\www\cube_mvc_fwk\Core\Controller.php' on line 52
+[01-Feb-2019 08:01:01 Europe/Athens] Uncaught exception: 'Exception' with message: 'Method indexdfsgdfgAction not found in controller App\Controllers\Posts'
+	Stack trace:#0 C:\Ampps\www\cube_mvc_fwk\Core\Router.php(126): Core\Controller->__call('indexdfsgdfg', Array)
+#1 C:\Ampps\www\cube_mvc_fwk\public\index.php(32): Core\Router->dispatch('posts/indexdfsg...')
+#2 {main}
+	Thrown in 'C:\Ampps\www\cube_mvc_fwk\Core\Controller.php' on line 52
+[01-Feb-2019 08:01:46 Europe/Athens] Uncaught exception: 'Exception' with message: 'No route matched.'
+	Stack trace:#0 C:\Ampps\www\cube_mvc_fwk\public\index.php(32): Core\Router->dispatch('indexdfsgdfg')
+#1 {main}
+	Thrown in 'C:\Ampps\www\cube_mvc_fwk\Core\Router.php' on line 136
+[01-Feb-2019 08:12:34 Europe/Athens] Uncaught exception: 'Exception' with message: 'No route matched.'
+	Stack trace:#0 C:\Ampps\www\cube_mvc_fwk\public\index.php(32): Core\Router->dispatch('indexdfsgdfg')
+#1 {main}
+	Thrown in 'C:\Ampps\www\cube_mvc_fwk\Core\Router.php' on line 136
+[01-Feb-2019 08:12:44 Europe/Athens] Uncaught exception: 'Exception' with message: 'Controller class App\Controllers\Index not found.'
+	Stack trace:#0 C:\Ampps\www\cube_mvc_fwk\public\index.php(32): Core\Router->dispatch('index/dfsgdfg')
+#1 {main}
+	Thrown in 'C:\Ampps\www\cube_mvc_fwk\Core\Router.php' on line 132
