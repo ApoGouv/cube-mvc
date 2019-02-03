@@ -2,7 +2,7 @@
 RewriteEngine On
 # enable symbolic links
 Options +FollowSymLinks
-RewriteBase /cube_mvc_fwk
+RewriteBase /cube-mvc
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l

@@ -1,5 +1,5 @@
 RewriteEngine On
 # Subfolder inside public_html
-# RewriteBase /cube_mvc_fwk
+# RewriteBase /cube-mvc
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) public/$1 [L]
